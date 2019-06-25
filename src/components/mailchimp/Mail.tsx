@@ -13,37 +13,7 @@ export const Mail = () => {
               </p> 
               
             </div>
-            <form method="post" action="#">
-              <div className="field half first">
-                <label htmlFor="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div className="field half">
-                <label htmlFor="email">Email</label>
-                <input type="text" name="email" id="email" />
-              </div>
-              
-              <ul className="actions">
-                <li>
-                  <input type="submit" value="Send Message" className="special" />
-                </li>
-                
-              </ul>
-            </form>
-
-            Form 2
-
-            <form name="contact" netlify>
-            <p>
-              <label>Name <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Email <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
+         
 
           3rd form
 
@@ -52,13 +22,14 @@ export const Mail = () => {
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
             <p>
-              <label>Email: <input type="text" name="email" /></label>
+              <label>Email: <input type="text" name="email" className={s.input}  /></label>
             </p>
             <p>
-              <label>Message: <textarea name="message"></textarea></label>
+              <label>Name: <input type="text" name="text" className={s.input}  /></label>
             </p>
+          
             <p>
-              <button type="submit">Send</button>
+              <button type="submit" className={s.input} >Send</button>
             </p>
           </form>
             
