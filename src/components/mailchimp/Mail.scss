@@ -1,5 +1,5 @@
 .call__button {
-    display: inline-block;
+    display: block;
     margin: 70px auto;
     padding: 20px;
     color: #333333;
@@ -10,10 +10,6 @@
     text-align: center;
 }
 
-.container {
-    display: flex;
-    
-}
 
 .input {
     border: 2px solid orange;

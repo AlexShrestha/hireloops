@@ -2,7 +2,7 @@ import * as React from 'react';
 import s from './Mail.scss';
 
 import { Container } from '../container/Container';
-import { Row } from 'components/row/Row';
+
 
 
 export const Mail = () => {
@@ -11,14 +11,14 @@ export const Mail = () => {
 
 <Container>
       <div className={s.intro}>
-        <Row>
+        
         <div className={s.container}>
               <p className={s.call__button}> 
                   Book Free Strategic Call
               </p> 
               
          </div>
-        </Row>
+       
       </div>
     </Container>
             
