@@ -7,7 +7,6 @@ import { BlockText } from 'components/block-text/BlockText';
 import { Mail } from 'components/mailchimp/Mail';
 
 import { Header } from 'components/header/Header';
-import { Link as HeaderLink } from 'components/header/Link';
 import { Footer } from 'components/footer/Footer';
 
 import Logo from 'assets/svg/ueno-logo.svg';

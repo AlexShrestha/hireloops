@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Link } from 'components/link/Link';
+
 
 // import StarterLogo from 'assets/svg/starter-logo.svg';
 
