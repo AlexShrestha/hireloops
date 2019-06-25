@@ -1,22 +1,19 @@
 @import '~styles/config';
 
 .header {
-  display: block;
+  display: #000000;
 
   &__container {
     @include container;
   }
 
   &__content {
-    display: flex;
-    align-items: center;
-
     padding: $gutter 0;
   }
 
   &__logo {
     font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
+    font-size: 24px;
     font-weight: 900;
     
   &__footer {
