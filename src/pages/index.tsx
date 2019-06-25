@@ -34,8 +34,11 @@ export default () => (
       /> */}
     </Header>
     <Intro>
-    We build ROI driven campaigns that grow your business. Whether it’s Facebook, Instagram, Google, Social Video Marketing, Email Marketing, User Generated Content. We help you find, pick and implement the most impactful strategies that drive revenue. </Intro>
+    We build ROI driven campaigns that grow your business. Whether it’s Facebook, Instagram, Google, Social Video Marketing, Email Marketing, User Generated Content. We help you find, pick and implement the most impactful strategies that drive revenue. 
+    
     <Mail />
+    </Intro>
+      
     <BlockText
       heading="Who we are"
       description={(

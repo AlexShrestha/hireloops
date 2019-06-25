@@ -1,16 +1,18 @@
 .call__button {
     display: inline-block;
-    margin: 0 auto;
+    margin: 150px auto;
     padding: 20px;
     color: black;
     background-color: #8EFFBF;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 900;
+    text-align: center;
 }
 
 .container {
     display: flex;
+    
 }
 
 .input {
