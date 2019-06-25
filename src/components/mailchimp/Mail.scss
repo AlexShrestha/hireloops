@@ -1,14 +1,17 @@
 .button {
     display: inline-block;
     margin: 70px auto;
-    padding: 20px;
+    padding: 11px;
     color: #333333;
     background-color: #8EFFBF;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-weight: 600;
     text-align: center;
-
+    &:hover {
+        background-color: #71cc98;
+        cursor: pointer;
+    }
 }
 
 .container {
