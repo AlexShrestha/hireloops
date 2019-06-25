@@ -6,9 +6,16 @@ import { Row } from '../row/Row';
 
 export const Mail = () => {
     return (
-      <div> 
-
-          <Container>sfa </Container>
-      </div>
+       <Container>
+            <div className={s.container}>
+                <p className={s.call__button}> 
+                  Book Free Strategic Call
+              </p> 
+              
+            </div>
+          
+            
+        </Container>
+     
     );
   };
