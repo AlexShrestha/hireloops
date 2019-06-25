@@ -20,9 +20,14 @@
     font-weight: 900;
     text-decoration: none;
     color: black;
-    &:hover {
-
-    }
+    
+  &__footer {
+    margin: 30px;
+  }
+    
+  &__green{
+    color: #A9FBC4 !important;
+  }
     
     @media (min-width: $min-768) {
         height: 18px;
