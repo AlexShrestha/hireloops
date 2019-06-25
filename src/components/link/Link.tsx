@@ -10,5 +10,6 @@ interface ILinkProps {
 export const Link = ({ children, to, ...props }: ILinkProps) => (
   <GatsbyLink to={to} {...props}>
     {children}
+    
   </GatsbyLink>
 );

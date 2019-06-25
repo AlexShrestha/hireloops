@@ -28,7 +28,7 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <HeaderLink
+      {/* <HeaderLink
         name="about"
         to="/about"
       />
@@ -37,10 +37,12 @@ export default ({ children }: IAppLayoutProps) => (
         name="github"
         to="https://github.com/ueno-llc"
         icon={<Github />}
-      />
+      /> */}
     </Header>
-
+    
     {children}
+
+  
 
     <Footer
       logo={<Logo />}

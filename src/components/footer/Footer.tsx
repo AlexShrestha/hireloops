@@ -26,7 +26,7 @@ export const Footer = ({ logo, social }: IFooterProps) => (
           {logo}
         </a>
 
-        <ul className={s.footer__list}>
+        {/* <ul className={s.footer__list}>
           {social.map((item) => (
             <li
               key={item.to}
@@ -41,7 +41,7 @@ export const Footer = ({ logo, social }: IFooterProps) => (
               </a>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </Container>
   </div>
