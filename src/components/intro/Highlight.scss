@@ -18,3 +18,23 @@
     background-color: rgba(#8effbf, 0.3);
   }
 }
+.highlight2 {
+  position: relative;
+
+  &__text2 {
+    position: relative;
+    z-index: 1;   
+  }
+
+  &__color2 {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    z-index: 0;
+    color: red;
+    width: 100%;
+    height: 16px;
+
+    background-color: rgba(#8effbf, 0.3);
+  }
+}
