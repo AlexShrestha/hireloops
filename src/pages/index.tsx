@@ -17,6 +17,10 @@ import Instagram from 'assets/svg/instagram.svg';
 import Facebook from 'assets/svg/facebook.svg';
 import Linkedin from 'assets/svg/linkedin.svg';
 
+import { Highlight } from 'components/intro/Highlight';
+
+
+
 export default () => (
   <>
     <Helmet title="Loops" />
@@ -33,7 +37,11 @@ export default () => (
       /> */}
     </Header>
     <Intro>
-    We build ROI driven campaigns that grow your business. Whether it’s Facebook, Instagram, Google, Social Video Marketing, Email Marketing, User Generated Content. We help you find, pick and implement the most impactful strategies that drive revenue. 
+    We build ROI driven campaigns that grow your business. 
+    Whether it’s <Highlight>Facebook</Highlight>, <Highlight>Instagram</Highlight>, <Highlight>Google</Highlight>,<Highlight> <Highlight> Social Video Marketing</Highlight></Highlight>, <Highlight>Email Marketing</Highlight>,  
+    <Highlight> User Generated </Highlight><Highlight> Content</Highlight>. We help you find, pick and implement the most impactful strategies that drive revenue. 
+    
+
     
     <Mail />
     </Intro>

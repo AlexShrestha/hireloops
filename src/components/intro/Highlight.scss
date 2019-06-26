@@ -3,11 +3,7 @@
 
   &__text {
     position: relative;
-    z-index: 1;
-
-    .isFirst & {
-      padding-right: 10px;
-    }
+    z-index: 1;   
   }
 
   &__color {
