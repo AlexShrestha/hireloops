@@ -1,5 +1,5 @@
 $width: 400px;
-$width-mobile: 80%;
+$width-mobile: 85%;
 $font: 23px;
 
 .container {
@@ -19,6 +19,8 @@ $font: 23px;
     color: #333333;
     font-size: $font;
     margin-bottom: 20px;
+    -webkit-appearance: none;
+    border-radius: 0;
     &:focus  {
         outline:none;
     }
@@ -31,7 +33,6 @@ $font: 23px;
     @media (max-width: 500px) {
        width: $width-mobile;
        margin: 0 auto;
-       margin-bottom: 20px;
     }
 }
 
@@ -43,12 +44,18 @@ $font: 23px;
     margin-top: 30px;
     background-color: #8EFFBF;
     color: #333333;
+    -webkit-appearance: none;
+    border-radius: 0;
 
     @media (max-width: 500px) {
-        width: $width-mobile;
-        margin: 0 auto;
+        width: $width;
+        padding: 8px;
+        display: block;
+        font-size: $font;
         margin-top: 30px;
-    }
+        background-color: #8EFFBF;
+        color: #333333;
+     }
 }
 
 .close {
