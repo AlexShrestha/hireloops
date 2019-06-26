@@ -6,7 +6,7 @@ import close from "../assets/images/close-button.png";
 export default () => (
   <>
     <div className={s.container}>
-        
+      <div className={s.wrap}>
           <div className={s.close}>
                <Link  to="/">
 
@@ -27,12 +27,16 @@ export default () => (
                 <input type="hidden" name="form-name" value="contact" />
                 <input className={s.input} type="text" name="name" id="name" placeholder="Name" required />
                 <input className={s.input} type="email" name="email" id="email" placeholder="Email" required />
-                <input className={s.submit}  type="submit" value="Submit" />
+                
+               
+                       <input className={s.submit}  type="submit" value="Submit" />
+               
+                
                     
            </form>
          
               
-
+  </div>
        
     </div>
 

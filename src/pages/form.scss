@@ -10,8 +10,15 @@ $font: 23px;
     justify-content: center;
 }
 
+.wrap {
+    width: 400px;
+     @media (max-width: 500px) {
+       width:90%;
+    }
+}
+
 .input {
-    width: $width;
+    width: 100%;
     padding: 10px 0;
     display: block;
     border: none;
@@ -19,8 +26,6 @@ $font: 23px;
     color: #333333;
     font-size: $font;
     margin-bottom: 20px;
-    -webkit-appearance: none;
-    border-radius: 0;
     &:focus  {
         outline:none;
     }
@@ -29,45 +34,28 @@ $font: 23px;
         font-size: 1em;
         
     }
-
-    @media (max-width: 500px) {
-       width: $width-mobile;
-       margin: 0 auto;
-    }
 }
 
 .submit {
-    width: $width;
+    width: 100%;
     padding: 8px;
     display: block;
     font-size: $font ;
     margin-top: 30px;
     background-color: #8EFFBF;
     color: #333333;
-    -webkit-appearance: none;
-    border-radius: 0;
-
-    @media (max-width: 500px) {
-        width: $width;
-        padding: 8px;
-        display: block;
-        font-size: $font;
-        margin-top: 30px;
-        background-color: #8EFFBF;
-        color: #333333;
-     }
 }
 
 .close {
-    display: block;
     margin-bottom: 40px;
 }
 
 .form {
     display: block;
-    
 }
 
 .img {
     width: 50px;
+    display: block;
+    margin: 0 auto;
 }
