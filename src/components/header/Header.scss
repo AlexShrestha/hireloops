@@ -13,15 +13,17 @@
 
   &__logo {
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
+  }
     
   &__footer {
     margin: 30px;
   }
     
-  &__green{
-    color: #A9FBC4 !important;
+  &__sub__logo{
+    color: #808080;
+    font-size: 16px;
   }
     
     // @media (min-width: $min-768) {
@@ -38,7 +40,7 @@
     //     height: 18px;
     //   }
     // }
-  }
+ 
 
   &__navigation {
     display: flex;

@@ -10,11 +10,12 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    `gatsby-plugin-modal-routing`,
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'ueno-gatsby-starter',
-        short_name: 'starter',
+        short_name: 'Loops',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

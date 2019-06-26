@@ -20,8 +20,9 @@ export const Footer = ({ }: IFooterProps) => (
     <Container>
       <div className={s.footer__content}>
         
-        <div> 
+        <div className={s.footer__container}> 
           <p className={s_logo.header__logo}>L<span className={s_logo.header__green}>oo</span>ps</p>
+          <a className={s.footer__contact} href="to:alex@hireloops.com">Email Us</a> 
         </div>
       
 

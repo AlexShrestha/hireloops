@@ -1,13 +1,21 @@
 import * as React from 'react';
 import s from './Mail.scss';
+import ModalExamplePage from './Modal';
+import { Link } from 'gatsby'
+
+
 
 export const Mail = () => {
     return (
         <div className={s.container}>
           <p className={s.button}> 
-                    Book Free Strategic Call
+                    Book Free Strategy Call
           </p> 
+       
+          
 
+          
+       
           <form
             name="contact"
             method="post"
