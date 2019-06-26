@@ -1,11 +1,12 @@
-.button {
+.link {
     display: inline-block;
     margin: 70px auto;
     padding: 11px;
     color: #333333;
+    text-decoration: none;
     background-color: #8EFFBF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     &:hover {
@@ -13,6 +14,8 @@
         cursor: pointer;
     }
 }
+
+
 
 .container {
     display: flex;
@@ -38,10 +41,5 @@
 .submit {
     font-size: 17px ;
     padding: 8px;
-
 }
 
-.link {
-    color: #333333;
-    text-decoration: none;
-}
