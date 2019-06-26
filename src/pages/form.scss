@@ -1,4 +1,5 @@
 $width: 400px;
+$font: 23px;
 
 .container {
     height: 100vh;
@@ -10,16 +11,18 @@ $width: 400px;
 
 .input {
     width: $width;
-    padding: 20px;
+    padding: 10px 0;
     display: block;
     border: none;
     border-bottom: 2px solid #8EFFBF;
     color: grey;
+    font-size: $font;
+    margin-bottom: 20px;
     &:focus  {
         outline:none;
     }
     &::placeholder {
-        color: grey;
+        color: #333333;
         font-size: 1em;
         
     }
@@ -29,16 +32,22 @@ $width: 400px;
     width: $width;
     padding: 8px;
     display: block;
-    font-size: 17px ;
+    font-size: $font ;
     margin-top: 30px;
     background-color: #8EFFBF;
+    color: #333333;
 }
 
 .close {
     display: block;
+    margin-bottom: 40px;
 }
 
 .form {
     display: block;
     
+}
+
+.img {
+    width: 50px;
 }

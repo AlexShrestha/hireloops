@@ -1,13 +1,17 @@
 import * as React from 'react';
 import s from './form.scss';
 import { Link } from 'gatsby'
+import close from "../assets/images/close-button.png";
 
 export default () => (
   <>
     <div className={s.container}>
         
           <div className={s.close}>
-               <Link  to="/">Close</Link>
+               <Link  to="/">
+
+                 <img className={s.img}  src={close}/>
+               </Link>
           </div>
 
           
