@@ -9,7 +9,7 @@
 
   &__col {
     @include grid-col;
-
+    margin-top:40px;
     @media (min-width: $min-768) {
       @include grid-col(6);
     }

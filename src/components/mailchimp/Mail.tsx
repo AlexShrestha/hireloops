@@ -1,9 +1,5 @@
 import * as React from 'react';
 import s from './Mail.scss';
-import ModalExamplePage from './Modal';
-import { Link } from 'gatsby'
-
-
 
 export const Mail = () => {
     return (
@@ -16,7 +12,7 @@ export const Mail = () => {
 
           
        
-          <form
+          {/* <form
             name="contact"
             method="post"
             data-netlify="true"
@@ -44,7 +40,7 @@ export const Mail = () => {
     </li>
  
   </ul>
-</form>
+</form> */}
 
         </div>
       
