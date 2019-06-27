@@ -1,5 +1,14 @@
-<html>
-<body>
+import * as React from 'react';
+import Helmet from 'react-helmet';
+
+import { Segment } from 'components/segment/Segment';
+
+export default () => (
+  <>
+    <Helmet title="Privacy Policy" />
+
+    <Segment>
+
 <h2>Privacy Policy</h2>
 <p>Privacy Policy Loops.<br />
 At Loops., accessible from http://hireloops.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Loops. and how we use it.</p>
@@ -55,5 +64,6 @@ Our Privacy Policy applies only to our online activities and is valid for visito
 
 <p>Consent<br />
 By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
-</body>
-</html>
+</Segment>
+  </>
+);
