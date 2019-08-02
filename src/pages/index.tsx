@@ -47,7 +47,7 @@ export default () => (
       heading="Who we are"
       description={(
         <>
-          Dedicated Digital Marketing Agency for Travel & Hospitality Industry. 
+          Dedicated Digital Marketing Agency for E-Commerce and Informational Products. 
 In the past 7 years, we have been honored to work with amazing companies like Surkus.com, thefabulous.co, Metalab.co and many others. We delivered campaigns with over 5 ROAS optimizing and testing each stage of the funnel and user interaction. 
 
         </>
