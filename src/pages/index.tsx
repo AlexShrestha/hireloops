@@ -48,7 +48,7 @@ export default () => (
       description={(
         <>
           Dedicated Digital Marketing Agency for E-Commerce and Informational Products. 
-In the past 7 years, we have been honored to work with amazing companies like Surkus.com, thefabulous.co, Metalab.co and many others. We delivered campaigns with over 5 ROAS optimizing and testing each stage of the funnel and user interaction. 
+In the past 7 years, we have been honored to work with amazing companies like Surkus.com, thefabulous.co, Metalab.co and many others. We delivered results through testing each stage of the funnel and diving deep into user research. 
 
         </>
       )}
