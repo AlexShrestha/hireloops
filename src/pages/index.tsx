@@ -47,7 +47,7 @@ export default () => (
       heading="Who we are"
       description={(
         <>
-          Dedicated Digital Marketing Agency for E-Commerce and Informational Products. 
+          Dedicated Digital Marketing Agency. 
 In the past 7 years, we have been honored to work with amazing companies like Surkus.com, thefabulous.co, Metalab.co and many others. We delivered results through testing each stage of the funnel and diving deep into user research. 
 
         </>
